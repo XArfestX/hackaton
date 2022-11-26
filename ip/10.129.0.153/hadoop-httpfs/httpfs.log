@@ -1,0 +1,22 @@
+2022-11-24 06:22:40,237  INFO Server [][:]  ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2022-11-24 06:22:40,239  INFO Server [][:]  Server [httpfs] starting
+2022-11-24 06:22:40,239  INFO Server [][:]    Built information:
+2022-11-24 06:22:40,239  INFO Server [][:]      Version           : 3.1.2
+2022-11-24 06:22:40,239  INFO Server [][:]      Source Repository : REPO NOT AVAIL
+2022-11-24 06:22:40,239  INFO Server [][:]      Source Revision   : REVISION NOT AVAIL
+2022-11-24 06:22:40,239  INFO Server [][:]      Built by          : jenkins
+2022-11-24 06:22:40,239  INFO Server [][:]      Built timestamp   : 2022-09-08T14:27:10+0000
+2022-11-24 06:22:40,240  INFO Server [][:]    Runtime information:
+2022-11-24 06:22:40,240  INFO Server [][:]      Home   dir: /usr/lib/hadoop-httpfs/
+2022-11-24 06:22:40,240  INFO Server [][:]      Config dir: /etc/hadoop-httpfs/conf
+2022-11-24 06:22:40,240  INFO Server [][:]      Log    dir: /var/log/hadoop-httpfs/
+2022-11-24 06:22:40,240  INFO Server [][:]      Temp   dir: /var/run/hadoop-httpfs
+2022-11-24 06:22:40,255  INFO Server [][:]  System property sets  httpfs.config.dir: /etc/hadoop-httpfs/conf
+2022-11-24 06:22:40,255  INFO Server [][:]  System property sets  httpfs.log.dir: /var/log/hadoop-httpfs/
+2022-11-24 06:22:40,255  INFO Server [][:]  System property sets  httpfs.temp.dir: /var/run/hadoop-httpfs
+2022-11-24 06:22:40,255  INFO Server [][:]  System property sets  httpfs.home.dir: /usr/lib/hadoop-httpfs/
+2022-11-24 06:22:40,265  INFO FileSystemAccessService [][:]  Using FileSystemAccess JARs version [3.1.2]
+2022-11-24 06:22:40,327  INFO FileSystemAccessService [][:]  Using FileSystemAccess simple/pseudo authentication, principal [httpfs]
+2022-11-24 06:22:40,339  INFO Server [][:]  Services initialized
+2022-11-24 06:22:40,340  INFO Server [][:]  Server [httpfs] started!, status [NORMAL]
+2022-11-24 06:22:40,353  INFO HttpFSServerWebApp [][:]  Connects to Namenode [hdfs://adh2]

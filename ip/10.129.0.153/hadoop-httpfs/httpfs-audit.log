@@ -1,0 +1,3 @@
+2022-11-24 06:27:36,316  INFO [10.129.0.153][hdfs:] LISTSTATUS [/tmp] filter [-]
+2022-11-24 06:27:37,954  INFO [10.129.0.153][hdfs:] CREATE [/tmp/httpfs_test_249309] permission [493] override [true] replication [-1] blockSize [-1] unmaskedpermission [-1]
+2022-11-24 06:27:39,279  INFO [10.129.0.153][hdfs:] DELETE [/tmp/httpfs_test_249309] recursive [false]
