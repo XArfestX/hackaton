@@ -1,7 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

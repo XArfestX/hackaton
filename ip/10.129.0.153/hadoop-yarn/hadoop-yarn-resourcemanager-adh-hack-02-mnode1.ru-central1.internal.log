@@ -1484,3 +1484,53 @@ defaultLifetime = -1 seconds
 2022-11-26 15:44:12,221 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 5 msec
 2022-11-26 16:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
 2022-11-26 16:44:12,224 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 8 msec
+2022-11-26 17:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-26 17:44:12,233 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 17 msec
+2022-11-26 18:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-26 18:44:12,221 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 5 msec
+2022-11-26 19:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-26 19:44:12,227 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 11 msec
+2022-11-26 20:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-26 20:44:12,220 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 4 msec
+2022-11-26 21:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-26 21:44:12,221 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 5 msec
+2022-11-26 22:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-26 22:44:12,228 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 11 msec
+2022-11-26 23:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-26 23:44:12,224 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 8 msec
+2022-11-27 00:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-27 00:44:12,243 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 26 msec
+2022-11-27 01:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-27 01:44:12,223 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 7 msec
+2022-11-27 02:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-27 02:44:12,225 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 9 msec
+2022-11-27 03:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-27 03:44:12,221 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 5 msec
+2022-11-27 04:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-27 04:44:12,225 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 9 msec
+2022-11-27 05:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-27 05:44:12,229 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 13 msec
+2022-11-27 06:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-27 06:44:12,221 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 5 msec
+2022-11-27 06:44:12,228 INFO org.apache.hadoop.yarn.server.resourcemanager.security.NMTokenSecretManagerInRM: Rolling master-key for nm-tokens
+2022-11-27 06:44:12,228 INFO org.apache.hadoop.yarn.server.resourcemanager.security.RMContainerTokenSecretManager: Rolling master-key for container-tokens
+2022-11-27 06:44:12,228 INFO org.apache.hadoop.yarn.server.resourcemanager.security.NMTokenSecretManagerInRM: Going to activate master-key with key-id -1724748001 in 900000ms
+2022-11-27 06:44:12,228 INFO org.apache.hadoop.yarn.server.resourcemanager.security.RMContainerTokenSecretManager: Going to activate master-key with key-id 702718030 in 900000ms
+2022-11-27 06:44:12,228 INFO org.apache.hadoop.yarn.server.resourcemanager.security.AMRMTokenSecretManager: Rolling master-key for amrm-tokens
+2022-11-27 06:44:12,228 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.RMStateStore: Updating AMRMToken
+2022-11-27 06:44:18,216 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2022-11-27 06:44:19,256 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2022-11-27 06:44:19,257 INFO org.apache.hadoop.yarn.server.resourcemanager.security.RMDelegationTokenSecretManager: storing master key with keyID 5
+2022-11-27 06:44:19,257 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.RMStateStore: Storing RMDTMasterKey.
+2022-11-27 06:59:12,228 INFO org.apache.hadoop.yarn.server.resourcemanager.security.NMTokenSecretManagerInRM: Activating next master key with id: -1724748001
+2022-11-27 06:59:12,228 INFO org.apache.hadoop.yarn.server.resourcemanager.security.RMContainerTokenSecretManager: Activating next master key with id: 702718030
+2022-11-27 06:59:12,228 INFO org.apache.hadoop.yarn.server.resourcemanager.security.AMRMTokenSecretManager: Activating next master key with id: 2079740290
+2022-11-27 06:59:12,228 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.RMStateStore: Updating AMRMToken
+2022-11-27 07:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-27 07:44:12,238 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 22 msec
+2022-11-27 08:44:12,216 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-27 08:44:12,239 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 23 msec
+2022-11-27 09:44:12,217 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-27 09:44:12,222 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 5 msec
+2022-11-27 10:44:12,217 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Starting full compaction cycle
+2022-11-27 10:44:12,222 INFO org.apache.hadoop.yarn.server.resourcemanager.recovery.LeveldbRMStateStore: Full compaction cycle completed in 5 msec

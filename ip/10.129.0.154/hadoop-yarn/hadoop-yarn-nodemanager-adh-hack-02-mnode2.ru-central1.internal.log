@@ -1717,3 +1717,257 @@ STARTUP_MSG:   java = 1.8.0_352
 2022-11-26 16:44:43,767 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 14 msec
 2022-11-26 16:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
 2022-11-26 16:44:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 16:54:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 16:54:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 17:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 17:04:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 17:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 17:14:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 17:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 17:24:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 17:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 17:34:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 17:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-26 17:44:43,770 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 17 msec
+2022-11-26 17:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 17:44:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 17:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 17:54:45,289 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 18:04:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 18:04:45,289 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 18:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 18:14:45,289 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 18:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 18:24:45,289 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 18:34:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 18:34:45,289 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 18:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-26 18:44:43,756 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 4 msec
+2022-11-26 18:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 18:44:45,289 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 18:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 18:54:45,289 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 19:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 19:04:45,290 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 19:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 19:14:45,290 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 19:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 19:24:45,290 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 19:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 19:34:45,290 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 19:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-26 19:44:43,762 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 9 msec
+2022-11-26 19:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 19:44:45,290 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 19:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 19:54:45,290 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 20:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 20:04:45,290 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 20:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 20:14:45,290 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 20:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 20:24:45,291 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 20:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 20:34:45,291 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 20:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-26 20:44:43,757 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 4 msec
+2022-11-26 20:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 20:44:45,291 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 20:54:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 20:54:45,291 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 21:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 21:04:45,291 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 21:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 21:14:45,291 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 21:24:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 21:24:45,291 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 21:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 21:34:45,291 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 21:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-26 21:44:43,757 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 3 msec
+2022-11-26 21:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 21:44:45,292 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 21:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 21:54:45,292 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 22:04:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 22:04:45,292 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 22:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 22:14:45,292 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 22:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 22:24:45,292 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 22:34:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 22:34:45,292 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 22:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-26 22:44:43,766 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 14 msec
+2022-11-26 22:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 22:44:45,292 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 22:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 22:54:45,292 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 23:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 23:04:45,293 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 23:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 23:14:45,293 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 23:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 23:24:45,293 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 23:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 23:34:45,293 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 23:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-26 23:44:43,757 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 4 msec
+2022-11-26 23:44:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 23:44:45,293 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-26 23:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-26 23:54:45,293 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 00:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 00:04:45,294 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 00:14:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 00:14:45,294 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 00:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 00:24:45,294 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 00:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 00:34:45,294 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 00:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-27 00:44:43,757 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 4 msec
+2022-11-27 00:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 00:44:45,294 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 00:54:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 00:54:45,295 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 01:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 01:04:45,295 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 01:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 01:14:45,295 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 01:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 01:24:45,295 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 01:34:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 01:34:45,295 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 01:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-27 01:44:43,758 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 5 msec
+2022-11-27 01:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 01:44:45,295 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 01:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 01:54:45,296 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 02:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 02:04:45,296 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 02:14:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 02:14:45,296 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 02:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 02:24:45,296 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 02:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 02:34:45,296 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 02:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-27 02:44:43,759 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 6 msec
+2022-11-27 02:44:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 02:44:45,297 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 02:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 02:54:45,297 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 03:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 03:04:45,297 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 03:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 03:14:45,297 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 03:24:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 03:24:45,297 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 03:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 03:34:45,298 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 03:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-27 03:44:43,757 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 4 msec
+2022-11-27 03:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 03:44:45,298 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 03:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 03:54:45,298 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 04:04:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 04:04:45,298 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 04:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 04:14:45,298 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 04:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 04:24:45,299 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 04:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 04:34:45,299 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 04:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-27 04:44:43,758 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 5 msec
+2022-11-27 04:44:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 04:44:45,299 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 04:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 04:54:45,299 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 05:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 05:04:45,299 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 05:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 05:14:45,299 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 05:24:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 05:24:45,299 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 05:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 05:34:45,300 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 05:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-27 05:44:43,765 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 12 msec
+2022-11-27 05:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 05:44:45,300 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 05:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 05:54:45,300 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 06:04:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 06:04:45,300 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 06:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 06:14:45,300 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 06:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 06:24:45,300 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 06:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 06:34:45,300 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 06:44:12,872 INFO org.apache.hadoop.yarn.server.nodemanager.security.NMContainerTokenSecretManager: Rolling master-key for container-tokens, got key with id 702718030
+2022-11-27 06:44:12,872 INFO org.apache.hadoop.yarn.server.nodemanager.security.NMTokenSecretManagerInNM: Rolling master-key for container-tokens, got key with id -1724748001
+2022-11-27 06:44:43,753 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-27 06:44:43,763 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 10 msec
+2022-11-27 06:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 06:44:45,301 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 06:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 06:54:45,301 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 07:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 07:04:45,301 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 07:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 07:14:45,301 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 07:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 07:24:45,301 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 07:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 07:34:45,301 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 07:44:43,754 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-27 07:44:43,760 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 6 msec
+2022-11-27 07:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 07:44:45,301 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 07:54:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 07:54:45,301 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 08:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 08:04:45,302 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 08:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 08:14:45,302 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 08:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 08:24:45,302 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 08:34:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 08:34:45,302 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 08:44:43,754 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-27 08:44:43,767 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 14 msec
+2022-11-27 08:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 08:44:45,302 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 08:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 08:54:45,302 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 09:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 09:04:45,303 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 09:14:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 09:14:45,303 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 09:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 09:24:45,303 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 09:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 09:34:45,303 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 09:44:43,754 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-27 09:44:43,763 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 9 msec
+2022-11-27 09:44:45,288 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 09:44:45,303 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 09:54:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 09:54:45,304 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 10:04:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 10:04:45,304 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 10:14:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 10:14:45,304 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 10:24:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 10:24:45,304 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 10:34:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 10:34:45,304 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0
+2022-11-27 10:44:43,754 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Starting full compaction cycle
+2022-11-27 10:44:43,762 INFO org.apache.hadoop.yarn.server.nodemanager.recovery.NMLeveldbStateStoreService: Full compaction cycle completed in 8 msec
+2022-11-27 10:44:45,287 INFO org.apache.hadoop.yarn.server.nodemanager.logaggregation.tracker.NMLogAggregationStatusTracker: Rolling over the cached log aggregation status.
+2022-11-27 10:44:45,304 INFO org.apache.hadoop.yarn.server.nodemanager.containermanager.localizer.ResourceLocalizationService: Cache Size Before Clean: 278231471, Total Deleted: 0, Public Deleted: 0, Private Deleted: 0

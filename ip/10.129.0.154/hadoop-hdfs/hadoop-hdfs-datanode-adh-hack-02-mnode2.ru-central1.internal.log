@@ -3784,3 +3784,786 @@ STARTUP_MSG:   java = 1.8.0_352
 2022-11-26 16:50:04,012 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742300_1476 src: /10.129.0.153:43414 dest: /10.129.0.154:9866
 2022-11-26 16:50:04,016 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:43414, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742300_1476, duration(ns): 1593848
 2022-11-26 16:50:04,016 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742300_1476, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[10.129.0.155:9866] terminating
+2022-11-26 16:54:39,081 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742291_1467 replica FinalizedReplica, blk_1073742291_1467, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742291 for deletion
+2022-11-26 16:54:39,081 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742292_1468 replica FinalizedReplica, blk_1073742292_1468, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742292 for deletion
+2022-11-26 16:54:39,081 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742293_1469 replica FinalizedReplica, blk_1073742293_1469, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742293 for deletion
+2022-11-26 16:54:39,081 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742294_1470 replica FinalizedReplica, blk_1073742294_1470, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742294 for deletion
+2022-11-26 16:54:39,081 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742291_1467 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742291
+2022-11-26 16:54:39,081 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742292_1468 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742292
+2022-11-26 16:54:39,081 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742293_1469 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742293
+2022-11-26 16:54:39,082 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742294_1470 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742294
+2022-11-26 17:34:41,212 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742301_1477 src: /10.129.0.153:36396 dest: /10.129.0.154:9866
+2022-11-26 17:34:41,219 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:36006, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742296_1472, duration(ns): 3600091015261
+2022-11-26 17:34:41,219 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742296_1472, type=LAST_IN_PIPELINE terminating
+2022-11-26 17:34:41,602 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742302_1478 src: /10.129.0.155:33234 dest: /10.129.0.154:9866
+2022-11-26 17:34:41,607 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:40232, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742297_1473, duration(ns): 3600096553493
+2022-11-26 17:34:41,607 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742297_1473, type=LAST_IN_PIPELINE terminating
+2022-11-26 17:34:42,664 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742303_1479 src: /10.129.0.154:44124 dest: /10.129.0.154:9866
+2022-11-26 17:34:42,668 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:49934, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742298_1474, duration(ns): 3600112285715
+2022-11-26 17:34:42,668 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742298_1474, type=LAST_IN_PIPELINE terminating
+2022-11-26 17:34:42,692 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742304_1480 src: /10.129.0.154:44130 dest: /10.129.0.154:9866
+2022-11-26 17:34:42,695 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:49940, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742299_1475, duration(ns): 3600113361378
+2022-11-26 17:34:42,695 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742299_1475, type=LAST_IN_PIPELINE terminating
+2022-11-26 17:40:24,371 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Successfully sent block report 0xded5648bdd47417f,  containing 1 storage report(s), of which we sent 1. The reports had 166 total blocks and used 1 RPC(s). This took 0 msec to generate and 1 msecs for RPC and NN processing. Got back no commands.
+2022-11-26 17:50:04,039 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742305_1481 src: /10.129.0.153:43768 dest: /10.129.0.154:9866
+2022-11-26 17:50:04,043 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:43768, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742305_1481, duration(ns): 1729922
+2022-11-26 17:50:04,043 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742305_1481, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[10.129.0.155:9866] terminating
+2022-11-26 17:54:39,243 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742296_1472 replica FinalizedReplica, blk_1073742296_1472, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742296 for deletion
+2022-11-26 17:54:39,243 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742297_1473 replica FinalizedReplica, blk_1073742297_1473, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742297 for deletion
+2022-11-26 17:54:39,243 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742298_1474 replica FinalizedReplica, blk_1073742298_1474, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742298 for deletion
+2022-11-26 17:54:39,243 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742299_1475 replica FinalizedReplica, blk_1073742299_1475, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742299 for deletion
+2022-11-26 17:54:39,243 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742296_1472 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742296
+2022-11-26 17:54:39,243 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742297_1473 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742297
+2022-11-26 17:54:39,244 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742298_1474 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742298
+2022-11-26 17:54:39,244 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742299_1475 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742299
+2022-11-26 18:34:41,299 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742306_1482 src: /10.129.0.153:36762 dest: /10.129.0.154:9866
+2022-11-26 18:34:41,304 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:36396, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742301_1477, duration(ns): 3600091347507
+2022-11-26 18:34:41,304 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742301_1477, type=LAST_IN_PIPELINE terminating
+2022-11-26 18:34:41,694 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742307_1483 src: /10.129.0.155:54466 dest: /10.129.0.154:9866
+2022-11-26 18:34:41,699 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:33234, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742302_1478, duration(ns): 3600095733266
+2022-11-26 18:34:41,699 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742302_1478, type=LAST_IN_PIPELINE terminating
+2022-11-26 18:34:42,776 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742308_1484 src: /10.129.0.154:38300 dest: /10.129.0.154:9866
+2022-11-26 18:34:42,780 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:44124, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742303_1479, duration(ns): 3600114905659
+2022-11-26 18:34:42,780 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742303_1479, type=LAST_IN_PIPELINE terminating
+2022-11-26 18:34:42,798 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742309_1485 src: /10.129.0.154:38306 dest: /10.129.0.154:9866
+2022-11-26 18:34:42,803 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:44130, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742304_1480, duration(ns): 3600110208122
+2022-11-26 18:34:42,803 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742304_1480, type=LAST_IN_PIPELINE terminating
+2022-11-26 18:44:54,391 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742304_1480 replica FinalizedReplica, blk_1073742304_1480, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742304 for deletion
+2022-11-26 18:44:54,391 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742301_1477 replica FinalizedReplica, blk_1073742301_1477, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742301 for deletion
+2022-11-26 18:44:54,391 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742302_1478 replica FinalizedReplica, blk_1073742302_1478, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742302 for deletion
+2022-11-26 18:44:54,391 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742303_1479 replica FinalizedReplica, blk_1073742303_1479, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742303 for deletion
+2022-11-26 18:44:54,392 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742304_1480 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742304
+2022-11-26 18:44:54,392 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742301_1477 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742301
+2022-11-26 18:44:54,392 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742302_1478 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742302
+2022-11-26 18:44:54,392 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742303_1479 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742303
+2022-11-26 18:50:04,066 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742310_1486 src: /10.129.0.153:44158 dest: /10.129.0.154:9866
+2022-11-26 18:50:04,070 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:44158, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742310_1486, duration(ns): 1674581
+2022-11-26 18:50:04,070 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742310_1486, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[10.129.0.155:9866] terminating
+2022-11-26 19:34:41,376 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742311_1487 src: /10.129.0.153:37144 dest: /10.129.0.154:9866
+2022-11-26 19:34:41,382 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:36762, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742306_1482, duration(ns): 3600082316809
+2022-11-26 19:34:41,382 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742306_1482, type=LAST_IN_PIPELINE terminating
+2022-11-26 19:34:41,780 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742312_1488 src: /10.129.0.155:47466 dest: /10.129.0.154:9866
+2022-11-26 19:34:41,787 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:54466, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742307_1483, duration(ns): 3600091992180
+2022-11-26 19:34:41,787 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742307_1483, type=LAST_IN_PIPELINE terminating
+2022-11-26 19:34:42,878 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742313_1489 src: /10.129.0.154:60708 dest: /10.129.0.154:9866
+2022-11-26 19:34:42,888 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:38300, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742308_1484, duration(ns): 3600111168953
+2022-11-26 19:34:42,889 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742308_1484, type=LAST_IN_PIPELINE terminating
+2022-11-26 19:34:42,907 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742314_1490 src: /10.129.0.154:60714 dest: /10.129.0.154:9866
+2022-11-26 19:34:42,912 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:38306, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742309_1485, duration(ns): 3600113453182
+2022-11-26 19:34:42,912 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742309_1485, type=LAST_IN_PIPELINE terminating
+2022-11-26 19:50:04,092 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742315_1491 src: /10.129.0.153:44536 dest: /10.129.0.154:9866
+2022-11-26 19:50:04,096 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:44536, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742315_1491, duration(ns): 1731083
+2022-11-26 19:50:04,096 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742315_1491, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[10.129.0.155:9866] terminating
+2022-11-26 19:54:36,586 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742306_1482 replica FinalizedReplica, blk_1073742306_1482, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742306 for deletion
+2022-11-26 19:54:36,587 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742307_1483 replica FinalizedReplica, blk_1073742307_1483, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742307 for deletion
+2022-11-26 19:54:36,587 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742308_1484 replica FinalizedReplica, blk_1073742308_1484, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742308 for deletion
+2022-11-26 19:54:36,587 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742309_1485 replica FinalizedReplica, blk_1073742309_1485, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742309 for deletion
+2022-11-26 19:54:36,587 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742306_1482 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742306
+2022-11-26 19:54:36,587 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742307_1483 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742307
+2022-11-26 19:54:36,587 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742308_1484 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742308
+2022-11-26 19:54:36,587 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742309_1485 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742309
+2022-11-26 20:34:41,468 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742316_1492 src: /10.129.0.153:37520 dest: /10.129.0.154:9866
+2022-11-26 20:34:41,474 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:37144, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742311_1487, duration(ns): 3600096635847
+2022-11-26 20:34:41,474 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742311_1487, type=LAST_IN_PIPELINE terminating
+2022-11-26 20:34:41,878 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742317_1493 src: /10.129.0.155:40468 dest: /10.129.0.154:9866
+2022-11-26 20:34:41,881 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:47466, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742312_1488, duration(ns): 3600100517890
+2022-11-26 20:34:41,881 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742312_1488, type=LAST_IN_PIPELINE terminating
+2022-11-26 20:34:42,990 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742318_1494 src: /10.129.0.154:54878 dest: /10.129.0.154:9866
+2022-11-26 20:34:42,995 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:60708, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742313_1489, duration(ns): 3600115503223
+2022-11-26 20:34:42,995 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742313_1489, type=LAST_IN_PIPELINE terminating
+2022-11-26 20:34:43,012 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742319_1495 src: /10.129.0.154:54884 dest: /10.129.0.154:9866
+2022-11-26 20:34:43,016 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:60714, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742314_1490, duration(ns): 3600107946183
+2022-11-26 20:34:43,016 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742314_1490, type=LAST_IN_PIPELINE terminating
+2022-11-26 20:50:04,120 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742320_1496 src: /10.129.0.153:44918 dest: /10.129.0.154:9866
+2022-11-26 20:50:04,125 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:44918, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742320_1496, duration(ns): 1745127
+2022-11-26 20:50:04,125 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742320_1496, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[10.129.0.155:9866] terminating
+2022-11-26 20:54:39,761 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742311_1487 replica FinalizedReplica, blk_1073742311_1487, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742311 for deletion
+2022-11-26 20:54:39,762 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742312_1488 replica FinalizedReplica, blk_1073742312_1488, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742312 for deletion
+2022-11-26 20:54:39,762 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742313_1489 replica FinalizedReplica, blk_1073742313_1489, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742313 for deletion
+2022-11-26 20:54:39,762 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742314_1490 replica FinalizedReplica, blk_1073742314_1490, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742314 for deletion
+2022-11-26 20:54:39,762 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742311_1487 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742311
+2022-11-26 20:54:39,762 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742312_1488 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742312
+2022-11-26 20:54:39,762 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742313_1489 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742313
+2022-11-26 20:54:39,762 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742314_1490 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742314
+2022-11-26 21:34:41,557 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742321_1497 src: /10.129.0.153:37864 dest: /10.129.0.154:9866
+2022-11-26 21:34:41,562 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:37520, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742316_1492, duration(ns): 3600093436448
+2022-11-26 21:34:41,562 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742316_1492, type=LAST_IN_PIPELINE terminating
+2022-11-26 21:34:41,970 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742322_1498 src: /10.129.0.155:33466 dest: /10.129.0.154:9866
+2022-11-26 21:34:41,974 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:40468, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742317_1493, duration(ns): 3600095043157
+2022-11-26 21:34:41,974 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742317_1493, type=LAST_IN_PIPELINE terminating
+2022-11-26 21:34:43,105 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742323_1499 src: /10.129.0.154:49056 dest: /10.129.0.154:9866
+2022-11-26 21:34:43,110 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:54878, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742318_1494, duration(ns): 3600118928526
+2022-11-26 21:34:43,110 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742318_1494, type=LAST_IN_PIPELINE terminating
+2022-11-26 21:34:43,151 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742324_1500 src: /10.129.0.154:49062 dest: /10.129.0.154:9866
+2022-11-26 21:34:43,156 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:54884, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742319_1495, duration(ns): 3600143369372
+2022-11-26 21:34:43,156 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742319_1495, type=LAST_IN_PIPELINE terminating
+2022-11-26 21:50:04,147 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742325_1501 src: /10.129.0.155:38894 dest: /10.129.0.154:9866
+2022-11-26 21:50:04,149 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:38894, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742325_1501, duration(ns): 1132072
+2022-11-26 21:50:04,149 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742325_1501, type=LAST_IN_PIPELINE terminating
+2022-11-26 21:54:36,942 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742316_1492 replica FinalizedReplica, blk_1073742316_1492, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742316 for deletion
+2022-11-26 21:54:36,943 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742317_1493 replica FinalizedReplica, blk_1073742317_1493, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742317 for deletion
+2022-11-26 21:54:36,943 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742318_1494 replica FinalizedReplica, blk_1073742318_1494, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742318 for deletion
+2022-11-26 21:54:36,943 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742319_1495 replica FinalizedReplica, blk_1073742319_1495, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742319 for deletion
+2022-11-26 21:54:36,943 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742316_1492 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742316
+2022-11-26 21:54:36,943 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742317_1493 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742317
+2022-11-26 21:54:36,943 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742318_1494 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742318
+2022-11-26 21:54:36,943 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742319_1495 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742319
+2022-11-26 21:59:06,967 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Successfully sent block report 0xd96f4a924d90983b,  containing 1 storage report(s), of which we sent 1. The reports had 167 total blocks and used 1 RPC(s). This took 0 msec to generate and 1 msecs for RPC and NN processing. Got back one command: FinalizeCommand/5.
+2022-11-26 21:59:06,967 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Got finalize command for block pool BP-683132388-10.129.0.153-1669270837707
+2022-11-26 22:32:32,531 INFO org.apache.hadoop.hdfs.server.datanode.DirectoryScanner: BlockPool BP-683132388-10.129.0.153-1669270837707 Total blocks: 163, missing metadata files:0, missing block files:0, missing blocks in memory:0, mismatched blocks:0
+2022-11-26 22:34:41,656 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742326_1502 src: /10.129.0.153:38246 dest: /10.129.0.154:9866
+2022-11-26 22:34:41,659 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:37864, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742321_1497, duration(ns): 3600101172053
+2022-11-26 22:34:41,659 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742321_1497, type=LAST_IN_PIPELINE terminating
+2022-11-26 22:34:42,068 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742327_1503 src: /10.129.0.155:54704 dest: /10.129.0.154:9866
+2022-11-26 22:34:42,074 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:33466, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742322_1498, duration(ns): 3600103147346
+2022-11-26 22:34:42,074 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742322_1498, type=LAST_IN_PIPELINE terminating
+2022-11-26 22:34:43,241 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742328_1504 src: /10.129.0.154:43212 dest: /10.129.0.154:9866
+2022-11-26 22:34:43,247 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:49056, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742323_1499, duration(ns): 3600141276591
+2022-11-26 22:34:43,247 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742323_1499, type=LAST_IN_PIPELINE terminating
+2022-11-26 22:34:43,267 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742329_1505 src: /10.129.0.154:43220 dest: /10.129.0.154:9866
+2022-11-26 22:34:43,274 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:49062, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742324_1500, duration(ns): 3600122120204
+2022-11-26 22:34:43,274 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742324_1500, type=LAST_IN_PIPELINE terminating
+2022-11-26 22:50:04,167 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742330_1506 src: /10.129.0.153:45646 dest: /10.129.0.154:9866
+2022-11-26 22:50:04,172 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:45646, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742330_1506, duration(ns): 1600709
+2022-11-26 22:50:04,172 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742330_1506, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[10.129.0.155:9866] terminating
+2022-11-26 22:54:37,115 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742321_1497 replica FinalizedReplica, blk_1073742321_1497, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742321 for deletion
+2022-11-26 22:54:37,116 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742322_1498 replica FinalizedReplica, blk_1073742322_1498, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742322 for deletion
+2022-11-26 22:54:37,116 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742323_1499 replica FinalizedReplica, blk_1073742323_1499, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742323 for deletion
+2022-11-26 22:54:37,116 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742324_1500 replica FinalizedReplica, blk_1073742324_1500, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742324 for deletion
+2022-11-26 22:54:37,116 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742321_1497 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742321
+2022-11-26 22:54:37,116 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742322_1498 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742322
+2022-11-26 22:54:37,116 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742323_1499 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742323
+2022-11-26 22:54:37,116 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742324_1500 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742324
+2022-11-26 23:34:41,742 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742331_1507 src: /10.129.0.153:38618 dest: /10.129.0.154:9866
+2022-11-26 23:34:41,745 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:38246, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742326_1502, duration(ns): 3600088765799
+2022-11-26 23:34:41,746 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742326_1502, type=LAST_IN_PIPELINE terminating
+2022-11-26 23:34:42,155 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742332_1508 src: /10.129.0.155:47702 dest: /10.129.0.154:9866
+2022-11-26 23:34:42,161 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:54704, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742327_1503, duration(ns): 3600092098481
+2022-11-26 23:34:42,161 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742327_1503, type=LAST_IN_PIPELINE terminating
+2022-11-26 23:34:43,350 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742333_1509 src: /10.129.0.154:37374 dest: /10.129.0.154:9866
+2022-11-26 23:34:43,355 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:43212, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742328_1504, duration(ns): 3600112590818
+2022-11-26 23:34:43,355 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742328_1504, type=LAST_IN_PIPELINE terminating
+2022-11-26 23:34:43,378 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742334_1510 src: /10.129.0.154:37380 dest: /10.129.0.154:9866
+2022-11-26 23:34:43,382 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:43220, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742329_1505, duration(ns): 3600113781995
+2022-11-26 23:34:43,382 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742329_1505, type=LAST_IN_PIPELINE terminating
+2022-11-26 23:40:22,365 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Successfully sent block report 0xded5648bdd474180,  containing 1 storage report(s), of which we sent 1. The reports had 172 total blocks and used 1 RPC(s). This took 0 msec to generate and 1 msecs for RPC and NN processing. Got back no commands.
+2022-11-26 23:50:04,194 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742335_1511 src: /10.129.0.153:46018 dest: /10.129.0.154:9866
+2022-11-26 23:50:04,198 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:46018, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742335_1511, duration(ns): 1751715
+2022-11-26 23:50:04,198 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742335_1511, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[10.129.0.155:9866] terminating
+2022-11-26 23:54:43,266 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742326_1502 replica FinalizedReplica, blk_1073742326_1502, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742326 for deletion
+2022-11-26 23:54:43,267 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742327_1503 replica FinalizedReplica, blk_1073742327_1503, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742327 for deletion
+2022-11-26 23:54:43,267 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742328_1504 replica FinalizedReplica, blk_1073742328_1504, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742328 for deletion
+2022-11-26 23:54:43,267 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742329_1505 replica FinalizedReplica, blk_1073742329_1505, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742329 for deletion
+2022-11-26 23:54:43,267 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742326_1502 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742326
+2022-11-26 23:54:43,267 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742327_1503 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742327
+2022-11-26 23:54:43,267 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742328_1504 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742328
+2022-11-26 23:54:43,267 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742329_1505 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742329
+2022-11-27 00:34:41,827 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742336_1512 src: /10.129.0.153:38990 dest: /10.129.0.154:9866
+2022-11-27 00:34:41,835 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:38618, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742331_1507, duration(ns): 3600092150515
+2022-11-27 00:34:41,835 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742331_1507, type=LAST_IN_PIPELINE terminating
+2022-11-27 00:34:42,248 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742337_1513 src: /10.129.0.155:40702 dest: /10.129.0.154:9866
+2022-11-27 00:34:42,253 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:47702, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742332_1508, duration(ns): 3600096844076
+2022-11-27 00:34:42,253 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742332_1508, type=LAST_IN_PIPELINE terminating
+2022-11-27 00:34:43,461 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742338_1514 src: /10.129.0.154:59778 dest: /10.129.0.154:9866
+2022-11-27 00:34:43,467 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:37374, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742333_1509, duration(ns): 3600115432912
+2022-11-27 00:34:43,467 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742333_1509, type=LAST_IN_PIPELINE terminating
+2022-11-27 00:34:43,488 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742339_1515 src: /10.129.0.154:59784 dest: /10.129.0.154:9866
+2022-11-27 00:34:43,493 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:37380, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742334_1510, duration(ns): 3600113675700
+2022-11-27 00:34:43,493 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742334_1510, type=LAST_IN_PIPELINE terminating
+2022-11-27 00:44:52,392 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742331_1507 replica FinalizedReplica, blk_1073742331_1507, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742331 for deletion
+2022-11-27 00:44:52,392 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742332_1508 replica FinalizedReplica, blk_1073742332_1508, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742332 for deletion
+2022-11-27 00:44:52,392 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742333_1509 replica FinalizedReplica, blk_1073742333_1509, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742333 for deletion
+2022-11-27 00:44:52,392 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742334_1510 replica FinalizedReplica, blk_1073742334_1510, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742334 for deletion
+2022-11-27 00:44:52,392 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742331_1507 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742331
+2022-11-27 00:44:52,392 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742332_1508 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742332
+2022-11-27 00:44:52,393 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742333_1509 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742333
+2022-11-27 00:44:52,393 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742334_1510 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir1/blk_1073742334
+2022-11-27 00:50:04,225 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742340_1516 src: /10.129.0.155:46132 dest: /10.129.0.154:9866
+2022-11-27 00:50:04,228 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:46132, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742340_1516, duration(ns): 1536725
+2022-11-27 00:50:04,228 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742340_1516, type=LAST_IN_PIPELINE terminating
+2022-11-27 01:34:41,916 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742341_1517 src: /10.129.0.153:39346 dest: /10.129.0.154:9866
+2022-11-27 01:34:41,923 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:38990, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742336_1512, duration(ns): 3600094784764
+2022-11-27 01:34:41,924 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742336_1512, type=LAST_IN_PIPELINE terminating
+2022-11-27 01:34:42,335 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742342_1518 src: /10.129.0.155:33706 dest: /10.129.0.154:9866
+2022-11-27 01:34:42,339 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:40702, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742337_1513, duration(ns): 3600090074656
+2022-11-27 01:34:42,339 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742337_1513, type=LAST_IN_PIPELINE terminating
+2022-11-27 01:34:43,565 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742343_1519 src: /10.129.0.154:53958 dest: /10.129.0.154:9866
+2022-11-27 01:34:43,569 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:59778, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742338_1514, duration(ns): 3600107729575
+2022-11-27 01:34:43,569 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742338_1514, type=LAST_IN_PIPELINE terminating
+2022-11-27 01:34:43,593 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742344_1520 src: /10.129.0.154:53964 dest: /10.129.0.154:9866
+2022-11-27 01:34:43,599 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:59784, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742339_1515, duration(ns): 3600110598389
+2022-11-27 01:34:43,599 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742339_1515, type=LAST_IN_PIPELINE terminating
+2022-11-27 01:50:04,252 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742345_1521 src: /10.129.0.155:39134 dest: /10.129.0.154:9866
+2022-11-27 01:50:04,255 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:39134, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742345_1521, duration(ns): 1327202
+2022-11-27 01:50:04,255 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742345_1521, type=LAST_IN_PIPELINE terminating
+2022-11-27 01:54:40,574 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742336_1512 replica FinalizedReplica, blk_1073742336_1512, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742336 for deletion
+2022-11-27 01:54:40,575 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742337_1513 replica FinalizedReplica, blk_1073742337_1513, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742337 for deletion
+2022-11-27 01:54:40,575 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742338_1514 replica FinalizedReplica, blk_1073742338_1514, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742338 for deletion
+2022-11-27 01:54:40,575 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742339_1515 replica FinalizedReplica, blk_1073742339_1515, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742339 for deletion
+2022-11-27 01:54:40,575 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742336_1512 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742336
+2022-11-27 01:54:40,575 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742337_1513 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742337
+2022-11-27 01:54:40,575 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742338_1514 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742338
+2022-11-27 01:54:40,575 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742339_1515 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742339
+2022-11-27 02:34:42,002 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742346_1522 src: /10.129.0.153:39740 dest: /10.129.0.154:9866
+2022-11-27 02:34:42,007 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:39346, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742341_1517, duration(ns): 3600090433648
+2022-11-27 02:34:42,007 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742341_1517, type=LAST_IN_PIPELINE terminating
+2022-11-27 02:34:42,418 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742347_1523 src: /10.129.0.155:54940 dest: /10.129.0.154:9866
+2022-11-27 02:34:42,423 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:33706, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742342_1518, duration(ns): 3600087667409
+2022-11-27 02:34:42,423 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742342_1518, type=LAST_IN_PIPELINE terminating
+2022-11-27 02:34:43,673 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742348_1524 src: /10.129.0.154:48136 dest: /10.129.0.154:9866
+2022-11-27 02:34:43,677 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:53958, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742343_1519, duration(ns): 3600110687011
+2022-11-27 02:34:43,677 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742343_1519, type=LAST_IN_PIPELINE terminating
+2022-11-27 02:34:43,695 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742349_1525 src: /10.129.0.154:48142 dest: /10.129.0.154:9866
+2022-11-27 02:34:43,699 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:53964, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742344_1520, duration(ns): 3600106028797
+2022-11-27 02:34:43,699 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742344_1520, type=LAST_IN_PIPELINE terminating
+2022-11-27 02:50:04,278 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742350_1526 src: /10.129.0.155:60368 dest: /10.129.0.154:9866
+2022-11-27 02:50:04,280 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:60368, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742350_1526, duration(ns): 1257374
+2022-11-27 02:50:04,280 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742350_1526, type=LAST_IN_PIPELINE terminating
+2022-11-27 02:54:40,741 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742341_1517 replica FinalizedReplica, blk_1073742341_1517, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742341 for deletion
+2022-11-27 02:54:40,741 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742342_1518 replica FinalizedReplica, blk_1073742342_1518, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742342 for deletion
+2022-11-27 02:54:40,741 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742343_1519 replica FinalizedReplica, blk_1073742343_1519, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742343 for deletion
+2022-11-27 02:54:40,741 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742344_1520 replica FinalizedReplica, blk_1073742344_1520, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742344 for deletion
+2022-11-27 02:54:40,741 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742341_1517 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742341
+2022-11-27 02:54:40,741 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742342_1518 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742342
+2022-11-27 02:54:40,742 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742343_1519 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742343
+2022-11-27 02:54:40,742 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742344_1520 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742344
+2022-11-27 03:34:42,077 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742351_1527 src: /10.129.0.153:40106 dest: /10.129.0.154:9866
+2022-11-27 03:34:42,080 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:39740, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742346_1522, duration(ns): 3600077386436
+2022-11-27 03:34:42,081 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742346_1522, type=LAST_IN_PIPELINE terminating
+2022-11-27 03:34:42,502 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742352_1528 src: /10.129.0.155:47946 dest: /10.129.0.154:9866
+2022-11-27 03:34:42,505 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:54940, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742347_1523, duration(ns): 3600085749587
+2022-11-27 03:34:42,505 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742347_1523, type=LAST_IN_PIPELINE terminating
+2022-11-27 03:34:43,772 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742353_1529 src: /10.129.0.154:42308 dest: /10.129.0.154:9866
+2022-11-27 03:34:43,780 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:48136, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742348_1524, duration(ns): 3600106715984
+2022-11-27 03:34:43,780 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742348_1524, type=LAST_IN_PIPELINE terminating
+2022-11-27 03:34:43,801 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742354_1530 src: /10.129.0.154:42314 dest: /10.129.0.154:9866
+2022-11-27 03:34:43,805 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:48142, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742349_1525, duration(ns): 3600108397181
+2022-11-27 03:34:43,805 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742349_1525, type=LAST_IN_PIPELINE terminating
+2022-11-27 03:50:04,301 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742355_1531 src: /10.129.0.153:47480 dest: /10.129.0.154:9866
+2022-11-27 03:50:04,305 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:47480, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742355_1531, duration(ns): 1598104
+2022-11-27 03:50:04,305 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742355_1531, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[10.129.0.155:9866] terminating
+2022-11-27 03:54:46,900 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742346_1522 replica FinalizedReplica, blk_1073742346_1522, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742346 for deletion
+2022-11-27 03:54:46,900 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742347_1523 replica FinalizedReplica, blk_1073742347_1523, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742347 for deletion
+2022-11-27 03:54:46,900 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742348_1524 replica FinalizedReplica, blk_1073742348_1524, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742348 for deletion
+2022-11-27 03:54:46,900 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742349_1525 replica FinalizedReplica, blk_1073742349_1525, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742349 for deletion
+2022-11-27 03:54:46,900 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742346_1522 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742346
+2022-11-27 03:54:46,901 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742347_1523 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742347
+2022-11-27 03:54:46,901 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742348_1524 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742348
+2022-11-27 03:54:46,901 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742349_1525 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742349
+2022-11-27 03:59:07,916 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Successfully sent block report 0xd96f4a924d90983c,  containing 1 storage report(s), of which we sent 1. The reports had 173 total blocks and used 1 RPC(s). This took 0 msec to generate and 2 msecs for RPC and NN processing. Got back one command: FinalizeCommand/5.
+2022-11-27 03:59:07,916 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Got finalize command for block pool BP-683132388-10.129.0.153-1669270837707
+2022-11-27 04:32:32,532 INFO org.apache.hadoop.hdfs.server.datanode.DirectoryScanner: BlockPool BP-683132388-10.129.0.153-1669270837707 Total blocks: 169, missing metadata files:0, missing block files:0, missing blocks in memory:0, mismatched blocks:0
+2022-11-27 04:34:42,153 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742356_1532 src: /10.129.0.153:40492 dest: /10.129.0.154:9866
+2022-11-27 04:34:42,156 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:40106, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742351_1527, duration(ns): 3600078586307
+2022-11-27 04:34:42,156 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742351_1527, type=LAST_IN_PIPELINE terminating
+2022-11-27 04:34:42,586 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742357_1533 src: /10.129.0.155:40944 dest: /10.129.0.154:9866
+2022-11-27 04:34:42,594 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:47946, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742352_1528, duration(ns): 3600091741633
+2022-11-27 04:34:42,594 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742352_1528, type=LAST_IN_PIPELINE terminating
+2022-11-27 04:34:43,881 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742358_1534 src: /10.129.0.154:36494 dest: /10.129.0.154:9866
+2022-11-27 04:34:43,885 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:42308, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742353_1529, duration(ns): 3600112229902
+2022-11-27 04:34:43,885 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742353_1529, type=LAST_IN_PIPELINE terminating
+2022-11-27 04:34:43,912 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742359_1535 src: /10.129.0.154:36498 dest: /10.129.0.154:9866
+2022-11-27 04:34:43,916 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:42314, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742354_1530, duration(ns): 3600112716364
+2022-11-27 04:34:43,916 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742354_1530, type=LAST_IN_PIPELINE terminating
+2022-11-27 04:50:04,334 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742360_1536 src: /10.129.0.155:46372 dest: /10.129.0.154:9866
+2022-11-27 04:50:04,336 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:46372, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742360_1536, duration(ns): 1218806
+2022-11-27 04:50:04,336 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742360_1536, type=LAST_IN_PIPELINE terminating
+2022-11-27 04:54:41,083 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742352_1528 replica FinalizedReplica, blk_1073742352_1528, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742352 for deletion
+2022-11-27 04:54:41,084 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742353_1529 replica FinalizedReplica, blk_1073742353_1529, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742353 for deletion
+2022-11-27 04:54:41,084 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742354_1530 replica FinalizedReplica, blk_1073742354_1530, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742354 for deletion
+2022-11-27 04:54:41,084 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742351_1527 replica FinalizedReplica, blk_1073742351_1527, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742351 for deletion
+2022-11-27 04:54:41,084 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742352_1528 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742352
+2022-11-27 04:54:41,084 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742353_1529 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742353
+2022-11-27 04:54:41,084 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742354_1530 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742354
+2022-11-27 04:54:41,084 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742351_1527 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742351
+2022-11-27 05:34:42,235 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742361_1537 src: /10.129.0.153:40880 dest: /10.129.0.154:9866
+2022-11-27 05:34:42,239 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:40492, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742356_1532, duration(ns): 3600085017197
+2022-11-27 05:34:42,239 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742356_1532, type=LAST_IN_PIPELINE terminating
+2022-11-27 05:34:42,675 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742362_1538 src: /10.129.0.155:33946 dest: /10.129.0.154:9866
+2022-11-27 05:34:42,679 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:40944, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742357_1533, duration(ns): 3600092298110
+2022-11-27 05:34:42,679 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742357_1533, type=LAST_IN_PIPELINE terminating
+2022-11-27 05:34:43,995 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742363_1539 src: /10.129.0.154:58898 dest: /10.129.0.154:9866
+2022-11-27 05:34:43,998 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:36494, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742358_1534, duration(ns): 3600116899576
+2022-11-27 05:34:43,998 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742358_1534, type=LAST_IN_PIPELINE terminating
+2022-11-27 05:34:44,018 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742364_1540 src: /10.129.0.154:58904 dest: /10.129.0.154:9866
+2022-11-27 05:34:44,022 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:36498, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742359_1535, duration(ns): 3600108886472
+2022-11-27 05:34:44,022 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742359_1535, type=LAST_IN_PIPELINE terminating
+2022-11-27 05:40:23,389 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Successfully sent block report 0xded5648bdd474181,  containing 1 storage report(s), of which we sent 1. The reports had 178 total blocks and used 1 RPC(s). This took 0 msec to generate and 2 msecs for RPC and NN processing. Got back no commands.
+2022-11-27 05:50:04,364 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742365_1541 src: /10.129.0.155:39374 dest: /10.129.0.154:9866
+2022-11-27 05:50:04,366 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:39374, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742365_1541, duration(ns): 1511725
+2022-11-27 05:50:04,366 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742365_1541, type=LAST_IN_PIPELINE terminating
+2022-11-27 05:54:44,220 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742356_1532 replica FinalizedReplica, blk_1073742356_1532, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742356 for deletion
+2022-11-27 05:54:44,220 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742357_1533 replica FinalizedReplica, blk_1073742357_1533, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742357 for deletion
+2022-11-27 05:54:44,221 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742358_1534 replica FinalizedReplica, blk_1073742358_1534, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742358 for deletion
+2022-11-27 05:54:44,221 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742359_1535 replica FinalizedReplica, blk_1073742359_1535, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742359 for deletion
+2022-11-27 05:54:44,221 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742356_1532 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742356
+2022-11-27 05:54:44,221 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742357_1533 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742357
+2022-11-27 05:54:44,221 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742358_1534 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742358
+2022-11-27 05:54:44,221 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742359_1535 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742359
+2022-11-27 06:34:42,313 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742366_1542 src: /10.129.0.153:41286 dest: /10.129.0.154:9866
+2022-11-27 06:34:42,316 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:40880, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742361_1537, duration(ns): 3600080944348
+2022-11-27 06:34:42,317 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742361_1537, type=LAST_IN_PIPELINE terminating
+2022-11-27 06:34:42,765 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742367_1543 src: /10.129.0.155:55184 dest: /10.129.0.154:9866
+2022-11-27 06:34:42,769 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:33946, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742362_1538, duration(ns): 3600092818724
+2022-11-27 06:34:42,769 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742362_1538, type=LAST_IN_PIPELINE terminating
+2022-11-27 06:34:44,096 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742368_1544 src: /10.129.0.154:53082 dest: /10.129.0.154:9866
+2022-11-27 06:34:44,100 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:58898, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742363_1539, duration(ns): 3600103743406
+2022-11-27 06:34:44,100 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742363_1539, type=LAST_IN_PIPELINE terminating
+2022-11-27 06:34:44,124 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742369_1545 src: /10.129.0.154:53088 dest: /10.129.0.154:9866
+2022-11-27 06:34:44,126 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:58904, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742364_1540, duration(ns): 3600107282832
+2022-11-27 06:34:44,126 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742364_1540, type=LAST_IN_PIPELINE terminating
+2022-11-27 06:50:04,394 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742370_1546 src: /10.129.0.155:60610 dest: /10.129.0.154:9866
+2022-11-27 06:50:04,397 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:60610, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742370_1546, duration(ns): 1807091
+2022-11-27 06:50:04,397 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742370_1546, type=LAST_IN_PIPELINE terminating
+2022-11-27 06:54:38,401 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742361_1537 replica FinalizedReplica, blk_1073742361_1537, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742361 for deletion
+2022-11-27 06:54:38,401 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742362_1538 replica FinalizedReplica, blk_1073742362_1538, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742362 for deletion
+2022-11-27 06:54:38,401 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742363_1539 replica FinalizedReplica, blk_1073742363_1539, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742363 for deletion
+2022-11-27 06:54:38,401 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742364_1540 replica FinalizedReplica, blk_1073742364_1540, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742364 for deletion
+2022-11-27 06:54:38,401 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742361_1537 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742361
+2022-11-27 06:54:38,402 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742362_1538 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742362
+2022-11-27 06:54:38,402 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742363_1539 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742363
+2022-11-27 06:54:38,402 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742364_1540 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742364
+2022-11-27 07:34:42,391 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742371_1547 src: /10.129.0.153:41722 dest: /10.129.0.154:9866
+2022-11-27 07:34:42,395 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:41286, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742366_1542, duration(ns): 3600080633717
+2022-11-27 07:34:42,395 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742366_1542, type=LAST_IN_PIPELINE terminating
+2022-11-27 07:34:42,850 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742372_1548 src: /10.129.0.155:48184 dest: /10.129.0.154:9866
+2022-11-27 07:34:42,856 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:55184, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742367_1543, duration(ns): 3600091093758
+2022-11-27 07:34:42,856 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742367_1543, type=LAST_IN_PIPELINE terminating
+2022-11-27 07:34:44,202 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742373_1549 src: /10.129.0.154:47262 dest: /10.129.0.154:9866
+2022-11-27 07:34:44,206 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:53082, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742368_1544, duration(ns): 3600109130949
+2022-11-27 07:34:44,206 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742368_1544, type=LAST_IN_PIPELINE terminating
+2022-11-27 07:34:44,228 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742374_1550 src: /10.129.0.154:47268 dest: /10.129.0.154:9866
+2022-11-27 07:34:44,231 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:53088, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742369_1545, duration(ns): 3600106926097
+2022-11-27 07:34:44,231 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742369_1545, type=LAST_IN_PIPELINE terminating
+2022-11-27 07:50:04,423 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742375_1551 src: /10.129.0.153:49120 dest: /10.129.0.154:9866
+2022-11-27 07:50:04,428 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:49120, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742375_1551, duration(ns): 1608698
+2022-11-27 07:50:04,428 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742375_1551, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[10.129.0.155:9866] terminating
+2022-11-27 07:54:41,526 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742368_1544 replica FinalizedReplica, blk_1073742368_1544, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742368 for deletion
+2022-11-27 07:54:41,526 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742369_1545 replica FinalizedReplica, blk_1073742369_1545, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742369 for deletion
+2022-11-27 07:54:41,526 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742366_1542 replica FinalizedReplica, blk_1073742366_1542, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742366 for deletion
+2022-11-27 07:54:41,526 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742367_1543 replica FinalizedReplica, blk_1073742367_1543, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742367 for deletion
+2022-11-27 07:54:41,527 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742368_1544 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742368
+2022-11-27 07:54:41,527 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742369_1545 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742369
+2022-11-27 07:54:41,527 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742366_1542 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742366
+2022-11-27 07:54:41,527 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742367_1543 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742367
+2022-11-27 08:34:42,476 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742376_1552 src: /10.129.0.153:42128 dest: /10.129.0.154:9866
+2022-11-27 08:34:42,482 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:41722, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742371_1547, duration(ns): 3600089908483
+2022-11-27 08:34:42,482 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742371_1547, type=LAST_IN_PIPELINE terminating
+2022-11-27 08:34:42,938 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742377_1553 src: /10.129.0.155:41184 dest: /10.129.0.154:9866
+2022-11-27 08:34:42,942 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:48184, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742372_1548, duration(ns): 3600091023800
+2022-11-27 08:34:42,942 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742372_1548, type=LAST_IN_PIPELINE terminating
+2022-11-27 08:34:44,307 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742378_1554 src: /10.129.0.154:41424 dest: /10.129.0.154:9866
+2022-11-27 08:34:44,310 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:47262, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742373_1549, duration(ns): 3600107922235
+2022-11-27 08:34:44,310 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742373_1549, type=LAST_IN_PIPELINE terminating
+2022-11-27 08:34:44,330 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742379_1555 src: /10.129.0.154:41430 dest: /10.129.0.154:9866
+2022-11-27 08:34:44,334 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:47268, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742374_1550, duration(ns): 3600104759372
+2022-11-27 08:34:44,334 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742374_1550, type=LAST_IN_PIPELINE terminating
+2022-11-27 08:50:04,450 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742380_1556 src: /10.129.0.155:46612 dest: /10.129.0.154:9866
+2022-11-27 08:50:04,452 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:46612, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742380_1556, duration(ns): 1198722
+2022-11-27 08:50:04,452 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742380_1556, type=LAST_IN_PIPELINE terminating
+2022-11-27 08:54:35,721 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742371_1547 replica FinalizedReplica, blk_1073742371_1547, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742371 for deletion
+2022-11-27 08:54:35,721 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742372_1548 replica FinalizedReplica, blk_1073742372_1548, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742372 for deletion
+2022-11-27 08:54:35,721 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742373_1549 replica FinalizedReplica, blk_1073742373_1549, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742373 for deletion
+2022-11-27 08:54:35,721 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742374_1550 replica FinalizedReplica, blk_1073742374_1550, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742374 for deletion
+2022-11-27 08:54:35,721 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742371_1547 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742371
+2022-11-27 08:54:35,721 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742372_1548 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742372
+2022-11-27 08:54:35,721 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742373_1549 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742373
+2022-11-27 08:54:35,721 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742374_1550 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742374
+2022-11-27 09:34:42,553 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742381_1557 src: /10.129.0.153:42486 dest: /10.129.0.154:9866
+2022-11-27 09:34:42,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:42128, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742376_1552, duration(ns): 3600080831788
+2022-11-27 09:34:42,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742376_1552, type=LAST_IN_PIPELINE terminating
+2022-11-27 09:34:43,033 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742382_1558 src: /10.129.0.155:34186 dest: /10.129.0.154:9866
+2022-11-27 09:34:43,040 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:41184, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742377_1553, duration(ns): 3600100413580
+2022-11-27 09:34:43,040 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742377_1553, type=LAST_IN_PIPELINE terminating
+2022-11-27 09:34:44,406 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742383_1559 src: /10.129.0.154:35614 dest: /10.129.0.154:9866
+2022-11-27 09:34:44,410 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:41424, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742378_1554, duration(ns): 3600102797693
+2022-11-27 09:34:44,410 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742378_1554, type=LAST_IN_PIPELINE terminating
+2022-11-27 09:34:44,432 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742384_1560 src: /10.129.0.154:35620 dest: /10.129.0.154:9866
+2022-11-27 09:34:44,435 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:41430, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742379_1555, duration(ns): 3600104367993
+2022-11-27 09:34:44,435 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742379_1555, type=LAST_IN_PIPELINE terminating
+2022-11-27 09:50:04,472 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742385_1561 src: /10.129.0.153:49854 dest: /10.129.0.154:9866
+2022-11-27 09:50:04,476 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:49854, dest: /10.129.0.154:9866, bytes: 30, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-772469066_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742385_1561, duration(ns): 1608126
+2022-11-27 09:50:04,476 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742385_1561, type=HAS_DOWNSTREAM_IN_PIPELINE, downstreams=1:[10.129.0.155:9866] terminating
+2022-11-27 09:54:38,864 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742376_1552 replica FinalizedReplica, blk_1073742376_1552, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742376 for deletion
+2022-11-27 09:54:38,865 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742377_1553 replica FinalizedReplica, blk_1073742377_1553, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742377 for deletion
+2022-11-27 09:54:38,865 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742378_1554 replica FinalizedReplica, blk_1073742378_1554, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742378 for deletion
+2022-11-27 09:54:38,865 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Scheduling blk_1073742379_1555 replica FinalizedReplica, blk_1073742379_1555, FINALIZED
+  getNumBytes()     = 91
+  getBytesOnDisk()  = 91
+  getVisibleLength()= 91
+  getVolume()       = /srv/hadoop-hdfs/data
+  getBlockURI()     = file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742379 for deletion
+2022-11-27 09:54:38,865 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742376_1552 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742376
+2022-11-27 09:54:38,865 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742377_1553 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742377
+2022-11-27 09:54:38,865 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742378_1554 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742378
+2022-11-27 09:54:38,865 INFO org.apache.hadoop.hdfs.server.datanode.fsdataset.impl.FsDatasetAsyncDiskService: Deleted BP-683132388-10.129.0.153-1669270837707 blk_1073742379_1555 URI file:/srv/hadoop-hdfs/data/current/BP-683132388-10.129.0.153-1669270837707/current/finalized/subdir0/subdir2/blk_1073742379
+2022-11-27 09:59:05,871 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Successfully sent block report 0xd96f4a924d90983d,  containing 1 storage report(s), of which we sent 1. The reports had 179 total blocks and used 1 RPC(s). This took 0 msec to generate and 1 msecs for RPC and NN processing. Got back one command: FinalizeCommand/5.
+2022-11-27 09:59:05,872 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Got finalize command for block pool BP-683132388-10.129.0.153-1669270837707
+2022-11-27 10:32:32,533 INFO org.apache.hadoop.hdfs.server.datanode.DirectoryScanner: BlockPool BP-683132388-10.129.0.153-1669270837707 Total blocks: 175, missing metadata files:0, missing block files:0, missing blocks in memory:0, mismatched blocks:0
+2022-11-27 10:34:42,636 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742386_1562 src: /10.129.0.153:42856 dest: /10.129.0.154:9866
+2022-11-27 10:34:42,640 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.153:42486, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_-2013136759_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742381_1557, duration(ns): 3600085475521
+2022-11-27 10:34:42,640 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742381_1557, type=LAST_IN_PIPELINE terminating
+2022-11-27 10:34:43,118 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742387_1563 src: /10.129.0.155:55420 dest: /10.129.0.154:9866
+2022-11-27 10:34:43,122 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.155:34186, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_813023232_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742382_1558, duration(ns): 3600087907338
+2022-11-27 10:34:43,122 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742382_1558, type=LAST_IN_PIPELINE terminating
+2022-11-27 10:34:44,512 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742388_1564 src: /10.129.0.154:58028 dest: /10.129.0.154:9866
+2022-11-27 10:34:44,517 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:35614, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742383_1559, duration(ns): 3600109293601
+2022-11-27 10:34:44,517 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742383_1559, type=LAST_IN_PIPELINE terminating
+2022-11-27 10:34:44,543 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving BP-683132388-10.129.0.153-1669270837707:blk_1073742389_1565 src: /10.129.0.154:58036 dest: /10.129.0.154:9866
+2022-11-27 10:34:44,547 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.129.0.154:35620, dest: /10.129.0.154:9866, bytes: 91, op: HDFS_WRITE, cliID: DFSClient_NONMAPREDUCE_949306793_1, offset: 0, srvID: f2f6a241-a1ff-43a7-9832-f9d43095dd3e, blockid: BP-683132388-10.129.0.153-1669270837707:blk_1073742384_1560, duration(ns): 3600114206592
+2022-11-27 10:34:44,547 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder: BP-683132388-10.129.0.153-1669270837707:blk_1073742384_1560, type=LAST_IN_PIPELINE terminating

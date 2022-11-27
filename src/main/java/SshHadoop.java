@@ -13,13 +13,13 @@ import java.util.List;
 class SshHadoop {
 
     private static final int CONNECT_TIMEOUT = 100000;
-    //private static ClassLogger log;
     static List <String> folders;
     static List <String> files;
+    static List <String> servers = new ArrayList<>();
     static List <String> paths = new ArrayList<>();
 
     public void downloadHadoopInformation() throws JSchException {
-        List <String> servers = downloadIp();
+        servers = downloadIp();
         for(int k = 0; k < servers.size() ; k++){
             Remote remote = new Remote();
             remote.setHost(servers.get(k));
